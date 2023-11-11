@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chat-box {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+.chat-text-s{
+    align-self: flex-start;
+    margin-bottom: 10px;
+    color:white;
+    background-color: blue;
+    border-radius: 20px;
+    padding: 20px;
+}
+.chat-text-u{
+    align-self: flex-end;
+    margin-bottom: 10px;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    padding: 20px;
+}
